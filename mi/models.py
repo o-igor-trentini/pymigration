@@ -17,3 +17,4 @@ class Person(models.Model):
     first_name = models.CharField(max_length=255)
     last_name = models.CharField(max_length=255)
     birth_date = models.DateTimeField()
+    blabla = models.DateTimeField()
