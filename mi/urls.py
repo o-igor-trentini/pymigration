@@ -4,5 +4,5 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('other', views.other, name='other')
+    path('run-migrations', views.run_migrations, name='run_migrations')
 ]
